@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Exemplo - Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ONG Exemplo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre a ONG</h2>
+            <p>Missão, visão e valores da ONG. Trabalhamos para transformar vidas e fortalecer a comunidade.</p>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <p>Email: contato@ongexemplo.com | Telefone: (11) 99999-9999</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 ONG Exemplo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
