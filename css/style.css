@@ -307,4 +307,44 @@ footer {
     padding-left: var(--space-2);
   }
 }
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: var(--space-1);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: var(--font-size-base);
+}
+
+input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: var(--space-1) var(--space-2);
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--color-primary-dark);
+}
+
 
