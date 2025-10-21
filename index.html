@@ -1,37 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG Exemplo - Página Inicial</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ONG Exemplo - Página Inicial</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>ONG Exemplo</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Sobre a ONG</h2>
-            <p>Missão, visão e valores da ONG. Trabalhamos para transformar vidas e fortalecer a comunidade.</p>
-        </section>
+<header>
+  <h1>ONG Exemplo</h1>
 
-        <section>
-            <h2>Contato</h2>
-            <p>Email: contato@ongexemplo.com | Telefone: (11) 99999-9999</p>
-        </section>
-    </main>
+  <!-- Botão do menu hambúrguer -->
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
 
-    <footer>
-        <p>© 2025 ONG Exemplo. Todos os direitos reservados.</p>
-    </footer>
-</body>
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li>
+        <a href="#">Projetos</a>
+        <ul class="submenu">
+          <li><a href="#">Voluntariado</a></li>
+          <li><a href="#">Educação</a></li>
+          <li><a href="#">Saúde</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Cadastro</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Sobre a ONG</h2>
+    <p>Missão, visão e valores da ONG. Trabalhamos para transformar vidas e fortalecer a comunidade.</p>
+  </section>
+
+  <section>
+    <h2>Projetos em Destaque</h2>
+    <div class="cards-container">
+      <div class="card">
+        <h3>Projeto A <span class="badge">Voluntariado</span></h3>
+        <p>Descrição breve do Projeto A. Envolvimento da comunidade e impacto social positivo.</p>
+        <button>Saiba Mais</button>
+      </div>
+      <div class="card">
+        <h3>Projeto B <span class="badge">Educação</span></h3>
+        <p>Descrição breve do Projeto B. Atividades educativas e culturais para crianças e jovens.</p>
+        <button>Saiba Mais</button>
+      </div>
+      <div class="card">
+        <h3>Projeto C <span class="badge">Saúde</span></h3>
+        <p>Descrição breve do Projeto C. Ações de saúde preventiva e suporte à população vulnerável.</p>
+        <button>Saiba Mais</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Email: contato@ongexemplo.com | Telefone: (11) 99999-9999</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 ONG Exemplo. Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/script.js"></script>
 </html>
